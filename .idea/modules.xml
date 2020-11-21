@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cwg_beans/cwg_beans.iml" filepath="$PROJECT_DIR$/cwg_beans/cwg_beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_book/cwg_book.iml" filepath="$PROJECT_DIR$/cwg_book/cwg_book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_client/cwg_client.iml" filepath="$PROJECT_DIR$/cwg_client/cwg_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_dao/cwg_dao.iml" filepath="$PROJECT_DIR$/cwg_dao/cwg_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_finance/cwg_finance.iml" filepath="$PROJECT_DIR$/cwg_finance/cwg_finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_project.iml" filepath="$PROJECT_DIR$/cwg_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_record/cwg_record.iml" filepath="$PROJECT_DIR$/cwg_record/cwg_record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_staff/cwg_staff.iml" filepath="$PROJECT_DIR$/cwg_staff/cwg_staff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_utils/cwg_utils.iml" filepath="$PROJECT_DIR$/cwg_utils/cwg_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_webpages/cwg_webpages.iml" filepath="$PROJECT_DIR$/cwg_webpages/cwg_webpages.iml" />
+    </modules>
+  </component>
+</project>

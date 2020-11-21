@@ -1,0 +1,4 @@
+com\bdqn\cwg_webpages\ServletInitializer.class
+com\bdqn\cwg_webpages\config\Myconfiger.class
+com\bdqn\cwg_webpages\component\LoginFilter.class
+com\bdqn\cwg_webpages\CwgWebPagesMain.class

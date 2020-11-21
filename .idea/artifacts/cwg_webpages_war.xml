@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cwg_webpages:war">
+    <output-path>$PROJECT_DIR$/cwg_webpages/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cwg_webpages</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cwg_webpages-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cwg_webpages:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>登录</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/cwg_webpages/css/bootstrap.css" rel="stylesheet">
+    <link href="/cwg_webpages/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="h"><strong>&nbsp;&nbsp;牡丹备案管理系统</strong></div>
+    <div class="login">
+        <h1><img src="/cwg_webpages/images/gongfanglogo.png" alt="" width="80px"></h1>
+        <form method="post" id="form">
+            <input class="user" type="text" name="username" placeholder="用户名" required="required" />
+            <input class="pwd" type="password" name="password" placeholder="密码" required="required" />
+            <div class="t-box dp-n">
+                <img src="/cwg_webpages/images/error.png" alt="" class="t-img">
+                <p class="t-color"></p>
+            </div>
+
+        </form>
+        <button type="submit" class=" btn btn-primary btn-block btn-large">登录</button>
+    </div>
+    <!-- 引入公共js文件 -->
+    <script src="/cwg_webpages/js/jquery-3.3.1.min.js"></script>
+    <script src="/cwg_webpages/js/bootstrap.js"></script>
+    <script>
+        /**
+         *  提示信息，提示后台登录的用户名和密码
+         *  后期删除此提示代码即可
+         */
+        /**alert("用户名密码/admin/123456");
+		*/
+        /**
+         * 表单验证 
+         */
+        $(".btn").on("click", function() {
+            var user = $(".user").val();
+            if (user == "") {
+                $(".t-box").removeClass("dp-n");
+                $(".t-color").html("用户名不能为空！");
+                return;
+            };
+            var pwd = $(".pwd").val();
+            if (pwd == "") {
+                $(".t-box").removeClass("dp-n");
+                $(".t-color").html("密码不能为空！");
+                return;
+            };
+            $.ajax({
+                type:"post",
+                url:"http://127.0.0.1:8080/cwg_webpages/login",
+                data: $("#form").serialize(),
+                success:function(data){
+                    if(data=="ok"){
+                        $.cookie("name",user,{expires:1});
+                        $.cookie("pass",pwd,{expires:1});
+                        window.location.href="/cwd.html";
+                    }
+                }
+            });
+            // var user = $(".user").val();
+            // if (user == "") {
+            //     $(".t-box").removeClass("dp-n");
+            //     $(".t-color").html("用户名不能为空！");
+            //     return;
+            // };
+            // var pwd = $(".pwd").val();
+            // if (pwd == "") {
+            //     $(".t-box").removeClass("dp-n");
+            //     $(".t-color").html("密码不能为空！");
+            //     return;
+            // };
+            // if (user == "admin" && pwd == "123456") {
+            //     window.location.href = "/cwg_webpages/bizpage/main.html";
+            // } else {
+            //     $(".t-box").removeClass("dp-n");
+            //     $(".t-color").html("用户名或密码错误！");
+            //
+            // }
+        });
+    </script>
+</body>
+
+</html>

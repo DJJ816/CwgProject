@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cwg_record" />
+        <module name="cwg_webpages" />
+        <module name="cwg_utils" />
+        <module name="cwg_client" />
+        <module name="cwg_dao" />
+        <module name="cwg_beans" />
+        <module name="cwg_finance" />
+        <module name="cwg_staff" />
+        <module name="cwg_book" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cwg_beans" target="1.8" />
+      <module name="cwg_book" target="1.8" />
+      <module name="cwg_client" target="1.8" />
+      <module name="cwg_dao" target="1.8" />
+      <module name="cwg_finance" target="1.8" />
+      <module name="cwg_project" target="1.8" />
+      <module name="cwg_record" target="1.8" />
+      <module name="cwg_staff" target="1.8" />
+      <module name="cwg_utils" target="1.8" />
+      <module name="cwg_webpages" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

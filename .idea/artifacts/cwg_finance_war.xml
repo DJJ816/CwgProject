@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cwg_finance:war">
+    <output-path>$PROJECT_DIR$/cwg_finance/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cwg_finance</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cwg_finance-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cwg_finance:war exploded" />
+    </root>
+  </artifact>
+</component>
