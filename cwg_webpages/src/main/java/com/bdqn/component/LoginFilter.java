@@ -1,4 +1,4 @@
-package com.bdqn.cwg_webpages.component;
+package com.bdqn.component;
 
 import javafx.beans.binding.When;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;

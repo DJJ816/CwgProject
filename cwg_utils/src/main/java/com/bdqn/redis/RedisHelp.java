@@ -1,4 +1,4 @@
-package com.bdqn.cwg_webpages.config;
+package com.bdqn.redis;
 
 import com.bdqn.redis.EmptyUtils;
 import org.springframework.dao.DataAccessException;

@@ -1,4 +1,4 @@
-package com.bdqn.cwg_webpages.config;
+package com.bdqn.redis;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;

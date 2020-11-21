@@ -1,6 +1,6 @@
-package com.bdqn.cwg_webpages.controller;
+package com.bdqn.controller;
 
-import com.bdqn.cwg_webpages.config.RedisHelp;
+import com.bdqn.redis.RedisHelp;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 

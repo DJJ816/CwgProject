@@ -1,3 +1,6 @@
 com\bdqn\solrservice\HotelSolrService.class
+com\bdqn\config\RedisHelp$1.class
 com\bdqn\ServletInitializer.class
 com\bdqn\CwgBookMain.class
+com\bdqn\config\RedisConfig.class
+com\bdqn\config\RedisHelp.class

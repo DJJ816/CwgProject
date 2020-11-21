@@ -1,0 +1,11 @@
+com\bdqn\pojo\Positions.class
+com\bdqn\pojo\Staffs.class
+com\bdqn\pojo\CwgBookmanager.class
+com\bdqn\pojo\CwgOnrecord.class
+com\bdqn\pojo\CwgOnrecoreStatus.class
+com\bdqn\pojo\CwgOnrecoreTimes.class
+com\bdqn\pojo\Onclockrecords.class
+com\bdqn\pojo\Sections.class
+com\bdqn\pojo\Jurisdiction.class
+com\bdqn\pojo\Functions.class
+com\bdqn\pojo\CwgClient.class
