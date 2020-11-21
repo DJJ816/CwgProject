@@ -18,11 +18,13 @@ public class LoginFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         Cookie[] cookies = ((HttpServletRequest) servletRequest).getCookies();
-        for (Cookie cookie:cookies){
-            if(null!=cookie.getName()&&null!=cookie.getValue()){
-                filterChain.doFilter(servletRequest, servletResponse);
-            }else{
-                ((HttpServletResponse)servletResponse).sendRedirect("/index.html");
+        if(cookies!=null) {
+            for (Cookie cookie : cookies) {
+                if (null != cookie.getName() && null != cookie.getValue()) {
+                    filterChain.doFilter(servletRequest, servletResponse);
+                } else {
+                    ((HttpServletResponse) servletResponse).sendRedirect("/index.html");
+                }
             }
         }
     }
