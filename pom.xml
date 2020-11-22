@@ -17,6 +17,7 @@
         <module>cwg_client</module>
         <module>cwg_record</module>
         <module>cwg_finance</module>
+        <module>cwg_section</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -52,6 +53,7 @@
                     <artifactId>mybatis-spring-boot-starter</artifactId>
                     <version>${mybatis.version}</version>
                 </dependency>
+                <!-- 定义 redis 版本 -->
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-redis</artifactId>

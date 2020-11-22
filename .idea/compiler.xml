@@ -10,6 +10,7 @@
         <module name="cwg_webpages" />
         <module name="cwg_utils" />
         <module name="cwg_client" />
+        <module name="cwg_section" />
         <module name="cwg_dao" />
         <module name="cwg_beans" />
         <module name="cwg_finance" />
@@ -25,6 +26,7 @@
       <module name="cwg_finance" target="1.8" />
       <module name="cwg_project" target="1.8" />
       <module name="cwg_record" target="1.8" />
+      <module name="cwg_section" target="1.8" />
       <module name="cwg_staff" target="1.8" />
       <module name="cwg_utils" target="1.8" />
       <module name="cwg_webpages" target="1.8" />

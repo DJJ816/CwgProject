@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/cwg_finance/cwg_finance.iml" filepath="$PROJECT_DIR$/cwg_finance/cwg_finance.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwg_project.iml" filepath="$PROJECT_DIR$/cwg_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwg_record/cwg_record.iml" filepath="$PROJECT_DIR$/cwg_record/cwg_record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cwg_section/cwg_section.iml" filepath="$PROJECT_DIR$/cwg_section/cwg_section.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwg_staff/cwg_staff.iml" filepath="$PROJECT_DIR$/cwg_staff/cwg_staff.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwg_utils/cwg_utils.iml" filepath="$PROJECT_DIR$/cwg_utils/cwg_utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwg_webpages/cwg_webpages.iml" filepath="$PROJECT_DIR$/cwg_webpages/cwg_webpages.iml" />
